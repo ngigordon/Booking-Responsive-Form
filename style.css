@@ -1,0 +1,88 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #1B2430;
+    color: #FCF8E8;
+}
+html{
+    font-size: 16px;
+}
+.holder{
+    
+    width: 90%;
+    margin: 0 auto;
+    max-width: 700px;
+    color: #37E2D5;
+    height: 100vh;
+}
+
+header{
+    font-size: 0.75rem;
+    padding: 0.1rem 0 0.1rem 0.5rem;
+    background-color: #FFFFFF;
+}
+main{
+    background-color: #FFFFFF;
+}
+.one{
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(180deg, #3e2170, #160726);
+    align-items: center;
+   
+}
+.one p:first-child{
+font-size: 3.5rem;
+line-height: 2.5rem;
+}
+.one p:last-child{
+font-size: 10rem;
+}
+
+.two{
+    position: relative;
+    padding: 1rem 2rem;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.name_notes{
+    display: flex;
+    justify-content: space-evenly;
+}
+.name_notes div:first-child{
+    height: 30vh;
+}
+.name_notes div:last-child{
+    height: 30vh;
+}
+.fiandsefield fieldset{
+    height: 50%;
+}
+.num-guest{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.notes{
+    height: 100%;
+}
+
+footer{
+background-color: #1B2430;   
+   color: azure;
+   text-align: center;
+}
+input{
+border-style: none;
+}
+.float{
+    border: 1px solid black;
+    height: 2.5rem;
+    width: 3rem;
+}
